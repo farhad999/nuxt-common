@@ -1,0 +1,14 @@
+// nuxt-common/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "types": ["@types/node"]
+  },
+  "include": ["./**/*"]
+}
